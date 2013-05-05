@@ -236,8 +236,8 @@ textarea {
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
   color: #333333;
   background-color: white;
 }
@@ -689,15 +689,15 @@ a:hover {
 
 /* line 9, compass_twitter_bootstrap/_type.scss */
 p {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 
 /* line 12, compass_twitter_bootstrap/_type.scss */
 .lead {
-  margin-bottom: 20px;
-  font-size: 21px;
+  margin-bottom: 30px;
+  font-size: 30px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 45px;
 }
 
 /* line 24, compass_twitter_bootstrap/_type.scss */
@@ -772,10 +772,10 @@ a.text-success:hover {
 
 /* line 50, compass_twitter_bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 15px 0;
   font-family: inherit;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 30px;
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -790,70 +790,70 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 h1,
 h2,
 h3 {
-  line-height: 40px;
+  line-height: 60px;
 }
 
 /* line 68, compass_twitter_bootstrap/_type.scss */
 h1 {
-  font-size: 38.5px;
+  font-size: 55px;
 }
 
 /* line 69, compass_twitter_bootstrap/_type.scss */
 h2 {
-  font-size: 31.5px;
+  font-size: 45px;
 }
 
 /* line 70, compass_twitter_bootstrap/_type.scss */
 h3 {
-  font-size: 24.5px;
+  font-size: 35px;
 }
 
 /* line 71, compass_twitter_bootstrap/_type.scss */
 h4 {
-  font-size: 17.5px;
+  font-size: 25px;
 }
 
 /* line 72, compass_twitter_bootstrap/_type.scss */
 h5 {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* line 73, compass_twitter_bootstrap/_type.scss */
 h6 {
-  font-size: 11.9px;
+  font-size: 17px;
 }
 
 /* line 75, compass_twitter_bootstrap/_type.scss */
 h1 small {
-  font-size: 24.5px;
+  font-size: 35px;
 }
 
 /* line 76, compass_twitter_bootstrap/_type.scss */
 h2 small {
-  font-size: 17.5px;
+  font-size: 25px;
 }
 
 /* line 77, compass_twitter_bootstrap/_type.scss */
 h3 small {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* line 78, compass_twitter_bootstrap/_type.scss */
 h4 small {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* line 84, compass_twitter_bootstrap/_type.scss */
 .page-header {
-  padding-bottom: 9px;
-  margin: 20px 0 30px;
+  padding-bottom: 14px;
+  margin: 30px 0 45px;
   border-bottom: 1px solid #eeeeee;
 }
 
 /* line 96, compass_twitter_bootstrap/_type.scss */
 ul, ol {
   padding: 0;
-  margin: 0 0 10px 25px;
+  margin: 0 0 15px 25px;
 }
 
 /* line 103, compass_twitter_bootstrap/_type.scss */
@@ -866,7 +866,7 @@ ol ul {
 
 /* line 106, compass_twitter_bootstrap/_type.scss */
 li {
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 112, compass_twitter_bootstrap/_type.scss */
@@ -892,13 +892,13 @@ ol.inline > li {
 
 /* line 130, compass_twitter_bootstrap/_type.scss */
 dl {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* line 134, compass_twitter_bootstrap/_type.scss */
 dt,
 dd {
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 137, compass_twitter_bootstrap/_type.scss */
@@ -908,7 +908,7 @@ dt {
 
 /* line 140, compass_twitter_bootstrap/_type.scss */
 dd {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 /* line 144, compass_twitter_bootstrap/_type.scss */
@@ -942,7 +942,7 @@ dd {
 
 /* line 162, compass_twitter_bootstrap/_type.scss */
 hr {
-  margin: 20px 0;
+  margin: 30px 0;
   border: 0;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid white;
@@ -964,7 +964,7 @@ abbr.initialism {
 /* line 182, compass_twitter_bootstrap/_type.scss */
 blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   border-left: 5px solid #eeeeee;
 }
 /* line 186, compass_twitter_bootstrap/_type.scss */
@@ -972,12 +972,12 @@ blockquote p {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 37.5px;
 }
 /* line 190, compass_twitter_bootstrap/_type.scss */
 blockquote small {
   display: block;
-  line-height: 20px;
+  line-height: 30px;
   color: #999999;
 }
 /* line 194, compass_twitter_bootstrap/_type.scss */
@@ -1017,9 +1017,9 @@ blockquote:after {
 /* line 230, compass_twitter_bootstrap/_type.scss */
 address {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-style: normal;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 8, compass_twitter_bootstrap/_code.scss */
@@ -1027,7 +1027,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 18px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1046,10 +1046,10 @@ code {
 /* line 26, compass_twitter_bootstrap/_code.scss */
 pre {
   display: block;
-  padding: 9.5px;
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 20px;
+  padding: 14.5px;
+  margin: 0 0 15px;
+  font-size: 19px;
+  line-height: 30px;
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre;
@@ -1063,7 +1063,7 @@ pre {
 }
 /* line 42, compass_twitter_bootstrap/_code.scss */
 pre.prettyprint {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 /* line 47, compass_twitter_bootstrap/_code.scss */
 pre code {
@@ -1083,7 +1083,7 @@ pre code {
 
 /* line 10, compass_twitter_bootstrap/_forms.scss */
 form {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
 }
 
 /* line 14, compass_twitter_bootstrap/_forms.scss */
@@ -1098,16 +1098,16 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 20px;
-  font-size: 21px;
-  line-height: 40px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  line-height: 60px;
   color: #333333;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
 /* line 33, compass_twitter_bootstrap/_forms.scss */
 legend small {
-  font-size: 15px;
+  font-size: 22.5px;
   color: #999999;
 }
 
@@ -1117,9 +1117,9 @@ input,
 button,
 select,
 textarea {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 50, compass_twitter_bootstrap/_forms.scss */
@@ -1155,11 +1155,11 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 20px;
+  height: 30px;
   padding: 4px 6px;
-  margin-bottom: 10px;
-  font-size: 14px;
-  line-height: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 30px;
   color: #555555;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1257,11 +1257,11 @@ input[type="checkbox"] {
 /* line 156, compass_twitter_bootstrap/_forms.scss */
 select,
 input[type="file"] {
-  height: 30px;
+  height: 40px;
   /* In IE7, the height of the select element cannot be changed by height, only font-size */
   *margin-top: 4px;
   /* For IE7, add top margin to align select with labels */
-  line-height: 30px;
+  line-height: 40px;
 }
 
 /* line 163, compass_twitter_bootstrap/_forms.scss */
@@ -1330,7 +1330,7 @@ textarea::-webkit-input-placeholder {
 /* line 225, compass_twitter_bootstrap/_forms.scss */
 .radio,
 .checkbox {
-  min-height: 20px;
+  min-height: 30px;
   padding-left: 20px;
 }
 
@@ -1728,9 +1728,9 @@ select:focus:invalid:focus {
 
 /* line 386, compass_twitter_bootstrap/_forms.scss */
 .form-actions {
-  padding: 19px 20px 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 29px 20px 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: whitesmoke;
   border-top: 1px solid #e5e5e5;
   *zoom: 1;
@@ -1755,7 +1755,7 @@ select:focus:invalid:focus {
 /* line 405, compass_twitter_bootstrap/_forms.scss */
 .help-block {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* line 410, compass_twitter_bootstrap/_forms.scss */
@@ -1783,7 +1783,7 @@ select:focus:invalid:focus {
 .input-prepend select,
 .input-prepend .uneditable-input,
 .input-prepend .dropdown-menu {
-  font-size: 14px;
+  font-size: 20px;
 }
 /* line 439, compass_twitter_bootstrap/_forms.scss */
 .input-append input,
@@ -1814,12 +1814,12 @@ select:focus:invalid:focus {
 .input-prepend .add-on {
   display: inline-block;
   width: auto;
-  height: 20px;
+  height: 30px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 30px;
   text-align: center;
   text-shadow: 0 1px 0 white;
   background-color: #eeeeee;
@@ -2048,18 +2048,18 @@ input.search-query {
 
 /* line 630, compass_twitter_bootstrap/_forms.scss */
 .control-group {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* line 635, compass_twitter_bootstrap/_forms.scss */
 legend + .control-group {
-  margin-top: 20px;
+  margin-top: 30px;
   -webkit-margin-top-collapse: separate;
 }
 
 /* line 645, compass_twitter_bootstrap/_forms.scss */
 .form-horizontal .control-group {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   *zoom: 1;
 }
 /* line 15, compass_twitter_bootstrap/_mixins.scss */
@@ -2101,7 +2101,7 @@ legend + .control-group {
 .form-horizontal .uneditable-input + .help-block,
 .form-horizontal .input-prepend + .help-block,
 .form-horizontal .input-append + .help-block {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 /* line 684, compass_twitter_bootstrap/_forms.scss */
 .form-horizontal .form-actions {
@@ -2119,13 +2119,13 @@ table {
 /* line 19, compass_twitter_bootstrap/_tables.scss */
 .table {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 /* line 24, compass_twitter_bootstrap/_tables.scss */
 .table th,
 .table td {
   padding: 8px;
-  line-height: 20px;
+  line-height: 30px;
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
@@ -4067,7 +4067,7 @@ ul.icons li [class*=" icon-"] {
 .dropdown-menu .divider {
   *width: 100%;
   height: 1px;
-  margin: 9px 1px;
+  margin: 14px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -4079,7 +4079,7 @@ ul.icons li [class*=" icon-"] {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 20px;
+  line-height: 30px;
   color: #333333;
   white-space: nowrap;
 }
@@ -4310,7 +4310,7 @@ ul.icons li [class*=" icon-"] {
   float: right;
   font-size: 20px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 30px;
   color: black;
   text-shadow: 0 1px 0 white;
   opacity: 0.2;
@@ -4341,8 +4341,8 @@ button.close {
   *zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 30px;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -4424,7 +4424,7 @@ button.close {
 /* line 72, compass_twitter_bootstrap/_buttons.scss */
 .btn-large {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 25px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -4439,7 +4439,7 @@ button.close {
 /* line 83, compass_twitter_bootstrap/_buttons.scss */
 .btn-small {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 17px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -4460,7 +4460,7 @@ button.close {
 /* line 98, compass_twitter_bootstrap/_buttons.scss */
 .btn-mini {
   padding: 0 6px;
-  font-size: 10.5px;
+  font-size: 15px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -4768,8 +4768,8 @@ input[type="submit"].btn.btn-mini {
 /* line 23, compass_twitter_bootstrap/_button-groups.scss */
 .btn-toolbar {
   font-size: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /* line 29, compass_twitter_bootstrap/_button-groups.scss */
 .btn-toolbar > .btn + .btn,
@@ -4795,22 +4795,22 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* line 49, compass_twitter_bootstrap/_button-groups.scss */
 .btn-group > .btn-mini {
-  font-size: 10.5px;
+  font-size: 15px;
 }
 
 /* line 52, compass_twitter_bootstrap/_button-groups.scss */
 .btn-group > .btn-small {
-  font-size: 11.9px;
+  font-size: 17px;
 }
 
 /* line 55, compass_twitter_bootstrap/_button-groups.scss */
 .btn-group > .btn-large {
-  font-size: 17.5px;
+  font-size: 25px;
 }
 
 /* line 60, compass_twitter_bootstrap/_button-groups.scss */
@@ -5030,7 +5030,7 @@ input[type="submit"].btn.btn-mini {
 /* line 9, compass_twitter_bootstrap/_alerts.scss */
 .alert {
   padding: 8px 35px 8px 14px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
@@ -5055,7 +5055,7 @@ input[type="submit"].btn.btn-mini {
   position: relative;
   top: -2px;
   right: -21px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 38, compass_twitter_bootstrap/_alerts.scss */
@@ -5116,7 +5116,7 @@ input[type="submit"].btn.btn-mini {
 /* line 9, compass_twitter_bootstrap/_navs.scss */
 .nav {
   margin-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   list-style: none;
 }
 
@@ -5147,7 +5147,7 @@ input[type="submit"].btn.btn-mini {
   padding: 3px 15px;
   font-size: 11px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 30px;
   color: #999999;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
@@ -5196,7 +5196,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list .divider {
   *width: 100%;
   height: 1px;
-  margin: 9px 1px;
+  margin: 14px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
@@ -5251,7 +5251,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > li > a {
   padding-top: 8px;
   padding-bottom: 8px;
-  line-height: 20px;
+  line-height: 30px;
   border: 1px solid transparent;
   -webkit-border-radius: 4px 4px 0 0;
   -moz-border-radius: 4px 4px 0 0;
@@ -5574,7 +5574,7 @@ input[type="submit"].btn.btn-mini {
 /* line 10, compass_twitter_bootstrap/_navbar.scss */
 .navbar {
   overflow: visible;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   *position: relative;
   *z-index: 2;
 }
@@ -5627,7 +5627,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 10px 20px 10px;
+  padding: 5px 20px 5px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -5840,7 +5840,7 @@ input[type="submit"].btn.btn-mini {
 /* line 238, compass_twitter_bootstrap/_navbar.scss */
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 15px 10px;
+  padding: 5px 15px 5px;
   color: #777777;
   text-decoration: none;
   text-shadow: 0 1px 0 white;
@@ -6175,7 +6175,7 @@ input[type="submit"].btn.btn-mini {
 /* line 6, compass_twitter_bootstrap/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
-  margin: 0 0 20px;
+  margin: 0 0 30px;
   list-style: none;
   background-color: #f5f5f5;
   -webkit-border-radius: 4px;
@@ -6201,7 +6201,7 @@ input[type="submit"].btn.btn-mini {
 
 /* line 6, compass_twitter_bootstrap/_pagination.scss */
 .pagination {
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 /* line 10, compass_twitter_bootstrap/_pagination.scss */
@@ -6229,7 +6229,7 @@ input[type="submit"].btn.btn-mini {
 .pagination ul > li > span {
   float: left;
   padding: 4px 12px;
-  line-height: 20px;
+  line-height: 30px;
   text-decoration: none;
   background-color: white;
   border: 1px solid #dddddd;
@@ -6296,7 +6296,7 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 25px;
 }
 /* line 84, compass_twitter_bootstrap/_pagination.scss */
 .pagination-large ul > li:first-child > a,
@@ -6348,19 +6348,19 @@ input[type="submit"].btn.btn-mini {
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 17px;
 }
 
 /* line 117, compass_twitter_bootstrap/_pagination.scss */
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 0 6px;
-  font-size: 10.5px;
+  font-size: 15px;
 }
 
 /* line 6, compass_twitter_bootstrap/_pager.scss */
 .pager {
-  margin: 20px 0;
+  margin: 30px 0;
   list-style: none;
   text-align: center;
   *zoom: 1;
@@ -6806,7 +6806,7 @@ input[type="submit"].btn.btn-mini {
 /* line 20, compass_twitter_bootstrap/_thumbnails.scss */
 .thumbnails > li {
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-left: 20px;
 }
 
@@ -6814,7 +6814,7 @@ input[type="submit"].btn.btn-mini {
 .thumbnail {
   display: block;
   padding: 4px;
-  line-height: 20px;
+  line-height: 30px;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -6855,7 +6855,7 @@ a.thumbnail:hover {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 11.844px;
+  font-size: 16.92px;
   font-weight: bold;
   line-height: 14px;
   color: white;
@@ -7020,8 +7020,8 @@ a.label:hover, a.badge:hover {
 /* line 45, compass_twitter_bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
+  height: 30px;
+  margin-bottom: 30px;
   background-color: #f6f6f6;
   background-image: -moz-linear-gradient(top, whitesmoke, #f9f9f9);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whitesmoke), to(#f9f9f9));
@@ -7039,7 +7039,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 55, compass_twitter_bootstrap/_progress-bars.scss */
-.progress .bar {
+.progress .bar, .progress > span {
   width: 0%;
   height: 100%;
   color: white;
@@ -7068,14 +7068,14 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 68, compass_twitter_bootstrap/_progress-bars.scss */
-.progress .bar + .bar {
+.progress .bar + .bar, .progress > span + .bar, .progress > .bar + span, .progress > span + span {
   -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* line 73, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-striped .bar {
+.progress-striped .bar, .progress-striped .progress > span {
   background-color: #149bdf;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -7089,7 +7089,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 79, compass_twitter_bootstrap/_progress-bars.scss */
-.progress.active .bar {
+.progress.active .bar, .progress.active .progress > span {
   -webkit-animation: progress-bar-stripes 2s linear infinite;
   -moz-animation: progress-bar-stripes 2s linear infinite;
   -ms-animation: progress-bar-stripes 2s linear infinite;
@@ -7098,7 +7098,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 93, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-danger .bar, .progress .bar-danger {
+.progress-danger .bar, .progress-danger .progress > span, .progress .bar-danger {
   background-color: #de514c;
   background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#c43c35));
@@ -7110,7 +7110,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 96, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-danger.progress-striped .bar, .progress-striped .bar-danger {
+.progress-danger.progress-striped .bar, .progress-danger.progress-striped .progress > span, .progress-striped .bar-danger {
   background-color: #ee5f5b;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -7120,7 +7120,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 101, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-success .bar, .progress .bar-success {
+.progress-success .bar, .progress-success .progress > span, .progress .bar-success {
   background-color: #5db95d;
   background-image: -moz-linear-gradient(top, #62c462, #57a957);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
@@ -7132,7 +7132,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 104, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-success.progress-striped .bar, .progress-striped .bar-success {
+.progress-success.progress-striped .bar, .progress-success.progress-striped .progress > span, .progress-striped .bar-success {
   background-color: #62c462;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -7142,7 +7142,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 109, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-info .bar, .progress .bar-info {
+.progress-info .bar, .progress-info .progress > span, .progress .bar-info {
   background-color: #4cb2d0;
   background-image: -moz-linear-gradient(top, #5bc0de, #339bb9);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#339bb9));
@@ -7154,7 +7154,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 112, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-info.progress-striped .bar, .progress-striped .bar-info {
+.progress-info.progress-striped .bar, .progress-info.progress-striped .progress > span, .progress-striped .bar-info {
   background-color: #5bc0de;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -7164,7 +7164,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 117, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-warning .bar, .progress .bar-warning {
+.progress-warning .bar, .progress-warning .progress > span, .progress .bar-warning {
   background-color: #f9a834;
   background-image: -moz-linear-gradient(top, #fbb450, #f89406);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
@@ -7176,7 +7176,7 @@ a.label:hover, a.badge:hover {
 }
 
 /* line 120, compass_twitter_bootstrap/_progress-bars.scss */
-.progress-warning.progress-striped .bar, .progress-striped .bar-warning {
+.progress-warning.progress-striped .bar, .progress-warning.progress-striped .progress > span, .progress-striped .bar-warning {
   background-color: #fbb450;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -7187,7 +7187,7 @@ a.label:hover, a.badge:hover {
 
 /* line 7, compass_twitter_bootstrap/_accordion.scss */
 .accordion {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 /* line 12, compass_twitter_bootstrap/_accordion.scss */
@@ -7224,7 +7224,7 @@ a.label:hover, a.badge:hover {
 /* line 6, compass_twitter_bootstrap/_carousel.scss */
 .carousel {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   line-height: 1;
 }
 
@@ -7337,7 +7337,7 @@ a.label:hover, a.badge:hover {
 .carousel-caption h4,
 .carousel-caption p {
   color: white;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 /* line 126, compass_twitter_bootstrap/_carousel.scss */
@@ -7356,7 +7356,7 @@ a.label:hover, a.badge:hover {
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 45px;
   color: inherit;
   background-color: #eeeeee;
   -webkit-border-radius: 6px;
@@ -7373,7 +7373,7 @@ a.label:hover, a.badge:hover {
 }
 /* line 22, compass_twitter_bootstrap/_hero-unit.scss */
 .hero-unit li {
-  line-height: 30px;
+  line-height: 45px;
 }
 
 /* line 7, compass_twitter_bootstrap/_utilities.scss */
@@ -7419,4 +7419,1435 @@ a.label:hover, a.badge:hover {
 /* line 30, compass_twitter_bootstrap/_utilities.scss */
 .affix {
   position: fixed;
+}
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+/* line 7, _reveal.scss */
+html,
+body,
+#main-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 14, _reveal.scss */
+body,
+#main-view {
+  position: relative;
+}
+
+/* line 18, _reveal.scss */
+::selection {
+  background: #FF5E99;
+  color: #fff;
+  text-shadow: none;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+/* line 33, _reveal.scss */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+
+/* line 41, _reveal.scss */
+.reveal h1 {
+  font-size: 3.77em;
+}
+
+/* line 42, _reveal.scss */
+.reveal h2 {
+  font-size: 2.11em;
+}
+
+/* line 43, _reveal.scss */
+.reveal h3 {
+  font-size: 1.55em;
+}
+
+/* line 44, _reveal.scss */
+.reveal h4 {
+  font-size: 1em;
+}
+
+/*********************************************
+ * VIEW FRAGMENTS
+ *********************************************/
+/* line 51, _reveal.scss */
+.reveal .slides section .fragment {
+  opacity: 0;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+/* line 60, _reveal.scss */
+.reveal .slides section .fragment.visible {
+  opacity: 1;
+}
+
+/* line 64, _reveal.scss */
+.reveal .slides section .fragment.grow {
+  opacity: 1;
+}
+
+/* line 67, _reveal.scss */
+.reveal .slides section .fragment.grow.visible {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+/* line 75, _reveal.scss */
+.reveal .slides section .fragment.shrink {
+  opacity: 1;
+}
+
+/* line 78, _reveal.scss */
+.reveal .slides section .fragment.shrink.visible {
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+/* line 86, _reveal.scss */
+.reveal .slides section .fragment.roll-in {
+  opacity: 0;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
+  -o-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+
+/* line 95, _reveal.scss */
+.reveal .slides section .fragment.roll-in.visible {
+  opacity: 1;
+  -webkit-transform: rotateX(0);
+  -moz-transform: rotateX(0);
+  -ms-transform: rotateX(0);
+  -o-transform: rotateX(0);
+  transform: rotateX(0);
+}
+
+/* line 105, _reveal.scss */
+.reveal .slides section .fragment.fade-out {
+  opacity: 1;
+}
+
+/* line 108, _reveal.scss */
+.reveal .slides section .fragment.fade-out.visible {
+  opacity: 0;
+}
+
+/* line 114, _reveal.scss */
+.reveal .slides section .fragment.highlight-red,
+.reveal .slides section .fragment.highlight-green,
+.reveal .slides section .fragment.highlight-blue {
+  opacity: 1;
+}
+
+/* line 117, _reveal.scss */
+.reveal .slides section .fragment.highlight-red.visible {
+  color: #ff2c2d;
+}
+
+/* line 120, _reveal.scss */
+.reveal .slides section .fragment.highlight-green.visible {
+  color: #17ff2e;
+}
+
+/* line 123, _reveal.scss */
+.reveal .slides section .fragment.highlight-blue.visible {
+  color: #1b91ff;
+}
+
+/*********************************************
+ * DEFAULT ELEMENT STYLES
+ *********************************************/
+/* Fixes issue in Chrome where italic fonts did not appear when printing to PDF */
+/* line 133, _reveal.scss */
+.reveal:after {
+  content: '';
+  font-style: italic;
+}
+
+/* Ensure certain elements are never larger than the slide itself */
+/* line 141, _reveal.scss */
+.reveal img,
+.reveal video,
+.reveal iframe {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+/** Prevents layering issues in certain browser/transition combinations */
+/* line 147, _reveal.scss */
+.reveal a {
+  position: relative;
+}
+
+/* line 152, _reveal.scss */
+.reveal strong,
+.reveal b {
+  font-weight: bold;
+}
+
+/* line 157, _reveal.scss */
+.reveal em,
+.reveal i {
+  font-style: italic;
+}
+
+/* line 162, _reveal.scss */
+.reveal ol,
+.reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em;
+}
+
+/* line 169, _reveal.scss */
+.reveal ol {
+  list-style-type: decimal;
+}
+
+/* line 173, _reveal.scss */
+.reveal ul {
+  list-style-type: disc;
+}
+
+/* line 177, _reveal.scss */
+.reveal ul ul {
+  list-style-type: square;
+}
+
+/* line 181, _reveal.scss */
+.reveal ul ul ul {
+  list-style-type: circle;
+}
+
+/* line 188, _reveal.scss */
+.reveal ul ul,
+.reveal ul ol,
+.reveal ol ol,
+.reveal ol ul {
+  display: block;
+  margin-left: 40px;
+}
+
+/* line 193, _reveal.scss */
+.reveal p {
+  margin-bottom: 10px;
+}
+
+/* line 198, _reveal.scss */
+.reveal q,
+.reveal blockquote {
+  quotes: none;
+}
+
+/* line 202, _reveal.scss */
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 5px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* line 214, _reveal.scss */
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+  display: inline-block;
+}
+
+/* line 217, _reveal.scss */
+.reveal blockquote:before {
+  content: '\201C';
+}
+
+/* line 220, _reveal.scss */
+.reveal blockquote:after {
+  content: '\201D';
+}
+
+/* line 224, _reveal.scss */
+.reveal q {
+  font-style: italic;
+}
+
+/* line 227, _reveal.scss */
+.reveal q:before {
+  content: '\201C';
+}
+
+/* line 230, _reveal.scss */
+.reveal q:after {
+  content: '\201D';
+}
+
+/* line 234, _reveal.scss */
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 15px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* line 248, _reveal.scss */
+.reveal pre code {
+  padding: 5px;
+}
+
+/* line 252, _reveal.scss */
+.reveal code {
+  font-family: monospace;
+  overflow: auto;
+  max-height: 400px;
+}
+
+/* line 259, _reveal.scss */
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding-right: .3em;
+}
+
+/* line 264, _reveal.scss */
+.reveal table th {
+  text-shadow: white 1px 1px 2px;
+}
+
+/* line 268, _reveal.scss */
+.reveal sup {
+  vertical-align: super;
+}
+
+/* line 271, _reveal.scss */
+.reveal sub {
+  vertical-align: sub;
+}
+
+/* line 275, _reveal.scss */
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  vertical-align: top;
+}
+
+/* line 281, _reveal.scss */
+.reveal small * {
+  vertical-align: top;
+}
+
+/*********************************************
+ * CONTROLS
+ *********************************************/
+/* line 290, _reveal.scss */
+.reveal .controls {
+  display: none;
+  position: fixed;
+  width: 110px;
+  height: 110px;
+  z-index: 30;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* line 300, _reveal.scss */
+.reveal .controls div {
+  position: absolute;
+  opacity: 0.1;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+/* line 314, _reveal.scss */
+.reveal .controls div.enabled {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* line 319, _reveal.scss */
+.reveal .controls div.enabled:active {
+  margin-top: 1px;
+}
+
+/* line 323, _reveal.scss */
+.reveal .controls div.navigate-left {
+  top: 42px;
+  border-right-width: 22px;
+  border-right-color: #eee;
+}
+
+/* line 330, _reveal.scss */
+.reveal .controls div.navigate-right {
+  left: 74px;
+  top: 42px;
+  border-left-width: 22px;
+  border-left-color: #eee;
+}
+
+/* line 338, _reveal.scss */
+.reveal .controls div.navigate-up {
+  left: 42px;
+  border-bottom-width: 22px;
+  border-bottom-color: #eee;
+}
+
+/* line 345, _reveal.scss */
+.reveal .controls div.navigate-down {
+  left: 42px;
+  top: 74px;
+  border-top-width: 22px;
+  border-top-color: #eee;
+}
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+/* line 358, _reveal.scss */
+.reveal .progress {
+  position: fixed;
+  display: none;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* line 367, _reveal.scss */
+.reveal .progress:after {
+  content: '';
+  display: 'block';
+  position: absolute;
+  height: 20px;
+  width: 100%;
+  top: -20px;
+}
+
+/* line 375, _reveal.scss */
+.reveal .progress span {
+  display: block;
+  height: 100%;
+  width: 0px;
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+/*********************************************
+ * ROLLING LINKS
+ *********************************************/
+/* line 392, _reveal.scss */
+.reveal .roll {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  -webkit-perspective: 400px;
+  -moz-perspective: 400px;
+  -ms-perspective: 400px;
+  perspective: 400px;
+  -webkit-perspective-origin: 50% 50%;
+  -moz-perspective-origin: 50% 50%;
+  -ms-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}
+
+/* line 408, _reveal.scss */
+.reveal .roll:hover {
+  background: none;
+  text-shadow: none;
+}
+
+/* line 412, _reveal.scss */
+.reveal .roll span {
+  display: block;
+  position: relative;
+  padding: 0 2px;
+  pointer-events: none;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 438, _reveal.scss */
+.reveal .roll:hover span {
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate3d(0px, 0px, -45px) rotateX(90deg);
+  -moz-transform: translate3d(0px, 0px, -45px) rotateX(90deg);
+  -ms-transform: translate3d(0px, 0px, -45px) rotateX(90deg);
+  transform: translate3d(0px, 0px, -45px) rotateX(90deg);
+}
+
+/* line 446, _reveal.scss */
+.reveal .roll span:after {
+  content: attr(data-title);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 2px;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: translate3d(0px, 110%, 0px) rotateX(-90deg);
+  -moz-transform: translate3d(0px, 110%, 0px) rotateX(-90deg);
+  -ms-transform: translate3d(0px, 110%, 0px) rotateX(-90deg);
+  transform: translate3d(0px, 110%, 0px) rotateX(-90deg);
+}
+
+/*********************************************
+ * SLIDES
+ *********************************************/
+/* line 471, _reveal.scss */
+.reveal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 477, _reveal.scss */
+.reveal .slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  overflow: visible;
+  z-index: 1;
+  text-align: center;
+  -webkit-transition: -webkit-perspective .4s ease;
+  -moz-transition: -moz-perspective .4s ease;
+  -ms-transition: -ms-perspective .4s ease;
+  -o-transition: -o-perspective .4s ease;
+  transition: perspective .4s ease;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -ms-perspective: 600px;
+  perspective: 600px;
+  -webkit-perspective-origin: 0px -100px;
+  -moz-perspective-origin: 0px -100px;
+  -ms-perspective-origin: 0px -100px;
+  perspective-origin: 0px -100px;
+}
+
+/* line 506, _reveal.scss */
+.reveal .slides > section,
+.reveal .slides > section > section {
+  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 20px 0px;
+  z-index: 10;
+  font-weight: normal;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), -webkit-transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: -moz-transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), -moz-transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -ms-transition: -ms-transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), -ms-transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -o-transition: -o-transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), -o-transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: transform-origin 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), transform 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), visibility 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985), opacity 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+}
+
+/* line 542, _reveal.scss */
+.reveal .slides > section {
+  left: -50%;
+  top: -50%;
+}
+
+/* line 547, _reveal.scss */
+.reveal .slides > section.stack {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 553, _reveal.scss */
+.reveal .slides > section.present,
+.reveal .slides > section > section.present {
+  display: block;
+  z-index: 11;
+  opacity: 1;
+}
+
+/* line 561, _reveal.scss */
+.reveal.center,
+.reveal.center .slides,
+.reveal.center .slides section {
+  min-height: auto !important;
+}
+
+/*********************************************
+ * DEFAULT TRANSITION
+ *********************************************/
+/* line 571, _reveal.scss */
+.reveal .slides > section.past {
+  display: block;
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0) rotateY(-90deg) translate3d(-100%, 0, 0);
+}
+
+/* line 580, _reveal.scss */
+.reveal .slides > section.future {
+  display: block;
+  opacity: 0;
+  -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0) rotateY(90deg) translate3d(100%, 0, 0);
+}
+
+/* line 590, _reveal.scss */
+.reveal .slides > section > section.past {
+  display: block;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
+  -moz-transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
+  -ms-transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
+  transform: translate3d(0, -300px, 0) rotateX(70deg) translate3d(0, -300px, 0);
+}
+
+/* line 599, _reveal.scss */
+.reveal .slides > section > section.future {
+  display: block;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0);
+  -moz-transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0);
+  -ms-transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0);
+  transform: translate3d(0, 300px, 0) rotateX(-70deg) translate3d(0, 300px, 0);
+}
+
+/*********************************************
+ * CONCAVE TRANSITION
+ *********************************************/
+/* line 614, _reveal.scss */
+.reveal.concave .slides > section.past {
+  -webkit-transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0);
+  -moz-transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0);
+  -ms-transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0) rotateY(90deg) translate3d(-100%, 0, 0);
+}
+
+/* line 620, _reveal.scss */
+.reveal.concave .slides > section.future {
+  -webkit-transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0) rotateY(-90deg) translate3d(100%, 0, 0);
+}
+
+/* line 627, _reveal.scss */
+.reveal.concave .slides > section > section.past {
+  -webkit-transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0);
+  -moz-transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0);
+  -ms-transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0);
+  transform: translate3d(0, -80%, 0) rotateX(-70deg) translate3d(0, -80%, 0);
+}
+
+/* line 633, _reveal.scss */
+.reveal.concave .slides > section > section.future {
+  -webkit-transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0);
+  -moz-transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0);
+  -ms-transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0);
+  transform: translate3d(0, 80%, 0) rotateX(70deg) translate3d(0, 80%, 0);
+}
+
+/*********************************************
+ * ZOOM TRANSITION
+ *********************************************/
+/* line 645, _reveal.scss */
+.reveal.zoom .slides > section.past {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(16);
+  -moz-transform: scale(16);
+  -ms-transform: scale(16);
+  -o-transform: scale(16);
+  transform: scale(16);
+}
+
+/* line 655, _reveal.scss */
+.reveal.zoom .slides > section.future {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(0.2);
+  -moz-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+  -o-transform: scale(0.2);
+  transform: scale(0.2);
+}
+
+/* line 666, _reveal.scss */
+.reveal.zoom .slides > section > section.past {
+  -webkit-transform: translate(0, -150%);
+  -moz-transform: translate(0, -150%);
+  -ms-transform: translate(0, -150%);
+  -o-transform: translate(0, -150%);
+  transform: translate(0, -150%);
+}
+
+/* line 673, _reveal.scss */
+.reveal.zoom .slides > section > section.future {
+  -webkit-transform: translate(0, 150%);
+  -moz-transform: translate(0, 150%);
+  -ms-transform: translate(0, 150%);
+  -o-transform: translate(0, 150%);
+  transform: translate(0, 150%);
+}
+
+/*********************************************
+ * LINEAR TRANSITION
+ *********************************************/
+/* line 686, _reveal.scss */
+.reveal.linear .slides > section.past {
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+  transform: translate(-150%, 0);
+}
+
+/* line 693, _reveal.scss */
+.reveal.linear .slides > section.future {
+  -webkit-transform: translate(150%, 0);
+  -moz-transform: translate(150%, 0);
+  -ms-transform: translate(150%, 0);
+  -o-transform: translate(150%, 0);
+  transform: translate(150%, 0);
+}
+
+/* line 701, _reveal.scss */
+.reveal.linear .slides > section > section.past {
+  -webkit-transform: translate(0, -150%);
+  -moz-transform: translate(0, -150%);
+  -ms-transform: translate(0, -150%);
+  -o-transform: translate(0, -150%);
+  transform: translate(0, -150%);
+}
+
+/* line 708, _reveal.scss */
+.reveal.linear .slides > section > section.future {
+  -webkit-transform: translate(0, 150%);
+  -moz-transform: translate(0, 150%);
+  -ms-transform: translate(0, 150%);
+  -o-transform: translate(0, 150%);
+  transform: translate(0, 150%);
+}
+
+/*********************************************
+ * CUBE TRANSITION
+ *********************************************/
+/* line 721, _reveal.scss */
+.reveal.cube .slides {
+  -webkit-perspective: 1300px;
+  -moz-perspective: 1300px;
+  -ms-perspective: 1300px;
+  perspective: 1300px;
+}
+
+/* line 728, _reveal.scss */
+.reveal.cube .slides section {
+  padding: 30px;
+  min-height: 600px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 741, _reveal.scss */
+.reveal.center.cube .slides section {
+  min-height: auto;
+}
+
+/* line 744, _reveal.scss */
+.reveal.cube .slides section:not(.stack):before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-transform: translateZ(-20px);
+  -moz-transform: translateZ(-20px);
+  -ms-transform: translateZ(-20px);
+  -o-transform: translateZ(-20px);
+  transform: translateZ(-20px);
+}
+
+/* line 761, _reveal.scss */
+.reveal.cube .slides section:not(.stack):after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 30px;
+  left: 5%;
+  bottom: 0;
+  background: none;
+  z-index: 1;
+  border-radius: 4px;
+  box-shadow: 0px 95px 25px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateZ(-90px) rotateX(65deg);
+  -moz-transform: translateZ(-90px) rotateX(65deg);
+  -ms-transform: translateZ(-90px) rotateX(65deg);
+  -o-transform: translateZ(-90px) rotateX(65deg);
+  transform: translateZ(-90px) rotateX(65deg);
+}
+
+/* line 782, _reveal.scss */
+.reveal.cube .slides > section.stack {
+  padding: 0;
+  background: none;
+}
+
+/* line 787, _reveal.scss */
+.reveal.cube .slides > section.past {
+  -webkit-transform-origin: 100% 0%;
+  -moz-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transform: translate3d(-100%, 0, 0) rotateY(-90deg);
+  -moz-transform: translate3d(-100%, 0, 0) rotateY(-90deg);
+  -ms-transform: translate3d(-100%, 0, 0) rotateY(-90deg);
+  transform: translate3d(-100%, 0, 0) rotateY(-90deg);
+}
+
+/* line 799, _reveal.scss */
+.reveal.cube .slides > section.future {
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translate3d(100%, 0, 0) rotateY(90deg);
+  -moz-transform: translate3d(100%, 0, 0) rotateY(90deg);
+  -ms-transform: translate3d(100%, 0, 0) rotateY(90deg);
+  transform: translate3d(100%, 0, 0) rotateY(90deg);
+}
+
+/* line 811, _reveal.scss */
+.reveal.cube .slides > section > section.past {
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: translate3d(0, -100%, 0) rotateX(90deg);
+  -moz-transform: translate3d(0, -100%, 0) rotateX(90deg);
+  -ms-transform: translate3d(0, -100%, 0) rotateX(90deg);
+  transform: translate3d(0, -100%, 0) rotateX(90deg);
+}
+
+/* line 823, _reveal.scss */
+.reveal.cube .slides > section > section.future {
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translate3d(0, 100%, 0) rotateX(-90deg);
+  -moz-transform: translate3d(0, 100%, 0) rotateX(-90deg);
+  -ms-transform: translate3d(0, 100%, 0) rotateX(-90deg);
+  transform: translate3d(0, 100%, 0) rotateX(-90deg);
+}
+
+/*********************************************
+ * PAGE TRANSITION
+ *********************************************/
+/* line 840, _reveal.scss */
+.reveal.page .slides {
+  -webkit-perspective-origin: 0% 50%;
+  -moz-perspective-origin: 0% 50%;
+  -ms-perspective-origin: 0% 50%;
+  perspective-origin: 0% 50%;
+  -webkit-perspective: 3000px;
+  -moz-perspective: 3000px;
+  -ms-perspective: 3000px;
+  perspective: 3000px;
+}
+
+/* line 852, _reveal.scss */
+.reveal.page .slides section {
+  padding: 30px;
+  min-height: 600px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 860, _reveal.scss */
+.reveal.page .slides section.past {
+  z-index: 12;
+}
+
+/* line 863, _reveal.scss */
+.reveal.page .slides section:not(.stack):before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateZ(-20px);
+  -moz-transform: translateZ(-20px);
+  -ms-transform: translateZ(-20px);
+  -o-transform: translateZ(-20px);
+  transform: translateZ(-20px);
+}
+
+/* line 879, _reveal.scss */
+.reveal.page .slides section:not(.stack):after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 30px;
+  left: 5%;
+  bottom: 0;
+  background: none;
+  z-index: 1;
+  border-radius: 4px;
+  box-shadow: 0px 95px 25px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateZ(-90px) rotateX(65deg);
+}
+
+/* line 896, _reveal.scss */
+.reveal.page .slides > section.stack {
+  padding: 0;
+  background: none;
+}
+
+/* line 901, _reveal.scss */
+.reveal.page .slides > section.past {
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translate3d(-40%, 0, 0) rotateY(-80deg);
+  -moz-transform: translate3d(-40%, 0, 0) rotateY(-80deg);
+  -ms-transform: translate3d(-40%, 0, 0) rotateY(-80deg);
+  transform: translate3d(-40%, 0, 0) rotateY(-80deg);
+}
+
+/* line 913, _reveal.scss */
+.reveal.page .slides > section.future {
+  -webkit-transform-origin: 100% 0%;
+  -moz-transform-origin: 100% 0%;
+  -ms-transform-origin: 100% 0%;
+  transform-origin: 100% 0%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 925, _reveal.scss */
+.reveal.page .slides > section > section.past {
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  transform-origin: 0% 0%;
+  -webkit-transform: translate3d(0, -40%, 0) rotateX(80deg);
+  -moz-transform: translate3d(0, -40%, 0) rotateX(80deg);
+  -ms-transform: translate3d(0, -40%, 0) rotateX(80deg);
+  transform: translate3d(0, -40%, 0) rotateX(80deg);
+}
+
+/* line 937, _reveal.scss */
+.reveal.page .slides > section > section.future {
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  -ms-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*********************************************
+ * FADE TRANSITION
+ *********************************************/
+/* line 955, _reveal.scss */
+.reveal.fade .slides section,
+.reveal.fade .slides > section > section {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+/* line 973, _reveal.scss */
+.reveal.fade.overview .slides section,
+.reveal.fade.overview .slides > section > section,
+.reveal.fade.exit-overview .slides section,
+.reveal.fade.exit-overview .slides > section > section {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/*********************************************
+ * NO TRANSITION
+ *********************************************/
+/* line 986, _reveal.scss */
+.reveal.none .slides section {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/*********************************************
+ * OVERVIEW
+ *********************************************/
+/* line 1005, _reveal.scss */
+.reveal.overview .slides {
+  -webkit-perspective-origin: 0% 0%;
+  -moz-perspective-origin: 0% 0%;
+  -ms-perspective-origin: 0% 0%;
+  perspective-origin: 0% 0%;
+  -webkit-perspective: 700px;
+  -moz-perspective: 700px;
+  -ms-perspective: 700px;
+  perspective: 700px;
+}
+
+/* line 1017, _reveal.scss */
+.reveal.overview .slides section {
+  height: 600px;
+  overflow: hidden;
+  opacity: 1 !important;
+  visibility: visible !important;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 1025, _reveal.scss */
+.reveal.overview .slides section .fragment {
+  opacity: 1;
+}
+
+/* line 1029, _reveal.scss */
+.reveal.overview .slides section:after,
+.reveal.overview .slides section:before {
+  display: none !important;
+}
+
+/* line 1032, _reveal.scss */
+.reveal.overview .slides section > section {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* line 1036, _reveal.scss */
+.reveal.overview .slides section:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 1039, _reveal.scss */
+.reveal.overview .slides section.present {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 1042, _reveal.scss */
+.reveal.overview .slides > section.stack {
+  padding: 0;
+  background: none;
+  overflow: visible;
+}
+
+/*********************************************
+ * PAUSED MODE
+ *********************************************/
+/* line 1053, _reveal.scss */
+.reveal .pause-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 100;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 1070, _reveal.scss */
+.reveal.paused .pause-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*********************************************
+ * FALLBACK
+ *********************************************/
+/* line 1080, _reveal.scss */
+.no-transforms {
+  overflow-y: auto;
+}
+
+/* line 1084, _reveal.scss */
+.no-transforms .slides {
+  width: 80%;
+  top: 0;
+  left: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 1092, _reveal.scss */
+.no-transforms .slides section {
+  display: block !important;
+  opacity: 1 !important;
+  position: relative !important;
+  height: auto;
+  min-height: auto;
+  top: 0;
+  left: -50%;
+  margin: 70px 0;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+/* line 1108, _reveal.scss */
+.no-transforms .slides section section {
+  left: 0;
+}
+
+/* line 1112, _reveal.scss */
+.no-transition {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/*********************************************
+ * BACKGROUND STATES
+ *********************************************/
+/* line 1125, _reveal.scss */
+.reveal .state-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition: background 800ms ease;
+  -moz-transition: background 800ms ease;
+  -ms-transition: background 800ms ease;
+  -o-transition: background 800ms ease;
+  transition: background 800ms ease;
+}
+
+/* line 1137, _reveal.scss */
+.alert .reveal .state-background {
+  background: rgba(200, 50, 30, 0.6);
+}
+
+/* line 1140, _reveal.scss */
+.soothe .reveal .state-background {
+  background: rgba(50, 200, 90, 0.4);
+}
+
+/* line 1143, _reveal.scss */
+.blackout .reveal .state-background {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/*********************************************
+ * RTL SUPPORT
+ *********************************************/
+/* line 1158, _reveal.scss */
+.reveal.rtl .slides,
+.reveal.rtl .slides h1,
+.reveal.rtl .slides h2,
+.reveal.rtl .slides h3,
+.reveal.rtl .slides h4,
+.reveal.rtl .slides h5,
+.reveal.rtl .slides h6 {
+  direction: rtl;
+  font-family: sans-serif;
+}
+
+/* line 1164, _reveal.scss */
+.reveal.rtl pre,
+.reveal.rtl code {
+  direction: ltr;
+}
+
+/* line 1169, _reveal.scss */
+.reveal.rtl ol,
+.reveal.rtl ul {
+  text-align: right;
+}
+
+/*********************************************
+ * SPEAKER NOTES
+ *********************************************/
+/* line 1178, _reveal.scss */
+.reveal aside.notes {
+  display: none;
+}
+
+/*********************************************
+ * ZOOM PLUGIN
+ *********************************************/
+/* line 1189, _reveal.scss */
+.zoomed .reveal *,
+.zoomed .reveal *:before,
+.zoomed .reveal *:after {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  -webkit-backface-visibility: visible !important;
+  -moz-backface-visibility: visible !important;
+  -ms-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+}
+
+/* line 1202, _reveal.scss */
+.zoomed .reveal .progress,
+.zoomed .reveal .controls {
+  opacity: 0;
+}
+
+/* line 1206, _reveal.scss */
+.zoomed .reveal .roll span {
+  background: none;
+}
+
+/* line 1210, _reveal.scss */
+.zoomed .reveal .roll span:after {
+  visibility: hidden;
+}
+
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+/* line 5, _monokai.scss */
+pre code {
+  display: block;
+  padding: 0.5em;
+  background: #272822;
+}
+
+/* line 20, _monokai.scss */
+pre .tag,
+pre .tag .title,
+pre .keyword,
+pre .literal,
+pre .change,
+pre .winutils,
+pre .flow,
+pre .lisp .title,
+pre .clojure .built_in,
+pre .nginx .title,
+pre .tex .special {
+  color: #F92672;
+}
+
+/* line 24, _monokai.scss */
+pre code {
+  color: #DDD;
+}
+
+/* line 28, _monokai.scss */
+pre code .constant {
+  color: #66D9EF;
+}
+
+/* line 32, _monokai.scss */
+pre .class .title {
+  color: white;
+}
+
+/* line 40, _monokai.scss */
+pre .attribute,
+pre .symbol,
+pre .symbol .string,
+pre .value,
+pre .regexp {
+  color: #BF79DB;
+}
+
+/* line 68, _monokai.scss */
+pre .tag .value,
+pre .string,
+pre .subst,
+pre .title,
+pre .haskell .type,
+pre .preprocessor,
+pre .ruby .class .parent,
+pre .built_in,
+pre .sql .aggregate,
+pre .django .template_tag,
+pre .django .variable,
+pre .smalltalk .class,
+pre .javadoc,
+pre .django .filter .argument,
+pre .smalltalk .localvars,
+pre .smalltalk .array,
+pre .attr_selector,
+pre .pseudo,
+pre .addition,
+pre .stream,
+pre .envvar,
+pre .apache .tag,
+pre .apache .cbracket,
+pre .tex .command,
+pre .prompt {
+  color: #A6E22E;
+}
+
+/* line 81, _monokai.scss */
+pre .comment,
+pre .java .annotation,
+pre .python .decorator,
+pre .template_comment,
+pre .pi,
+pre .doctype,
+pre .deletion,
+pre .shebang,
+pre .apache .sqbracket,
+pre .tex .formula {
+  color: #75715E;
+}
+
+/* line 102, _monokai.scss */
+pre .keyword,
+pre .literal,
+pre .css .id,
+pre .phpdoc,
+pre .title,
+pre .haskell .type,
+pre .vbscript .built_in,
+pre .sql .aggregate,
+pre .rsl .built_in,
+pre .smalltalk .class,
+pre .diff .header,
+pre .chunk,
+pre .winutils,
+pre .bash .variable,
+pre .apache .tag,
+pre .tex .special,
+pre .request,
+pre .status {
+  font-weight: bold;
+}
+
+/* line 112, _monokai.scss */
+pre .coffeescript .javascript,
+pre .javascript .xml,
+pre .tex .formula,
+pre .xml .javascript,
+pre .xml .vbscript,
+pre .xml .css,
+pre .xml .cdata {
+  opacity: 0.5;
+}
+
+/* line 8, main.scss */
+#footer {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  font-size: 70%;
+}
+
+/* line 14, main.scss */
+.slides {
+  width: 70%;
+}
+
+/* line 18, main.scss */
+.slide {
+  font-size: 130%;
+  height: 65%;
+}
+/* line 21, main.scss */
+.slide h1 {
+  line-height: 105px;
 }
