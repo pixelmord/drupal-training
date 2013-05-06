@@ -1,0 +1,56 @@
+name = Sitebuilding 01
+description = Install with commonly used features pre-configured and a setup for basic sitebuilding training
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = field_ui
+dependencies[] = file
+
+
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
+dependencies[] = content_menu
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = ds
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entityreference
+dependencies[] = entity_translation
+dependencies[] = features
+dependencies[] = field_group
+dependencies[] = i18n
+dependencies[] = link
+dependencies[] = media
+dependencies[] = media_youtube
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = nice_menus
+dependencies[] = panelizer
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = taxonomy_menu
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_slideshow
+dependencies[] = webform
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_filter
+
+
