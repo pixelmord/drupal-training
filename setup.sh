@@ -10,7 +10,7 @@ echo "[INFO] downloading drupal with drush to htdocs"
 drush make drupal-training.make htdocs
 
 echo "[INFO] copy training profiles"
-cp -a $WORKDIR/code/profiles/ $WORKDIR/htdocs/profiles/
+cp -a $WORKDIR/code/profiles/* $WORKDIR/htdocs/profiles/
 
 echo "[INFO] copy training modules"
 mkdir -p $WORKDIR/htdocs/sites/all/modules/custom
