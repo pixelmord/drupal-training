@@ -1,0 +1,3 @@
+name = Bare Minimum
+description = This theme demonstrates Drupal's default HTML markup and CSS styles.
+core = 7.x

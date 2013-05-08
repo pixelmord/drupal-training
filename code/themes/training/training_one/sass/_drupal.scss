@@ -1,0 +1,527 @@
+// =============================================================================
+// Drupal specific styles
+// =============================================================================
+
+#skip-link {
+  a,
+  a:visited {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: -500px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+  }
+  a:hover,
+  a:active,
+  a:focus {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 2px 0 3px 0;
+  }
+}
+
+// The name of the website
+#site-name  {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.3em;
+  a:link,
+  a:visited {
+    color: #000;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    text-decoration: underline;
+  }
+}
+
+.item-list ul li {
+  margin: 0;
+  padding: 0;
+  list-style: inherit;
+}
+
+#content .tabs li,
+#content .links li,
+ul.menu li,
+li.expanded,
+li.collapsed,
+li.leaf {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+dd {
+  margin: 0 0 0 2em;
+  padding: 0;
+}
+
+// =============================================================================
+// Tabs
+// =============================================================================
+
+div.tabs {
+  margin: 0 0 11px;
+  font-size: 0.9em;
+}
+
+ul.tabs {
+  &.primary {
+    display: block;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border-bottom: solid 1px #ddd;
+    @include clearfix;
+
+    li {
+      display: block;
+      width: auto;
+      height: 28px;
+      margin: 0;
+      padding: 0;
+      background: none;
+      float: left;
+      overflow: visible;
+      position: relative;
+
+      a {
+        display: block;
+        text-decoration: none;
+        width: auto;
+        height: 28px;
+        padding: 0px 20px;
+        line-height: 30px;
+        border: solid 1px #ddd;
+        border-width: 1px 0 0 1px;
+        margin: 0;
+        background-color: #f5f5f5;
+        @include gradient-vertical-three-colors(#f5f5f5, #f5f5f5, 85%, #e5e5e5);
+
+        &:hover,
+        &.active {
+          background: #fff;
+          height: 28px;
+          position: relative;
+          top: -4px;
+          padding-top: 4px;
+          border-right-width: 1px;
+          margin: 0 -1px 0 0;
+          color: #111;
+          @include rounded(top-left, 3px);
+          @include rounded(top-right, 3px);
+        }
+        &:hover {
+          color: $linkColorHover;
+        }
+      }
+
+      &:first-child a {
+        @include rounded(top-left, 3px);
+      }
+      &:last-child a {
+        border-width: 1px 1px 0 1px;
+        @include rounded(top-right, 3px);
+      }
+    }
+  }
+  &.secondary {
+    border: none;
+    padding: 0;
+    margin: 0;
+    @include btn-group();
+
+    li {
+      border: none;
+      margin: 0;
+      padding: 0;
+      background: none;
+      position: relative;
+      float: left;
+      a {
+        @include btn-group-btn();
+      }
+      &:first-child,
+      &.first {
+        a {
+          @include btn-group-btn-first();
+        }
+      }
+      &:last-child,
+      &.last {
+        a {
+          @include btn-group-btn-last();
+        }
+      }
+    }
+  }
+}
+/**
+ *  ==========================================================================
+ *  Feed Icon
+ *  ==========================================================================
+ */
+
+.feed a.feed-icon{
+  background: url(/misc/feed.png) transparent;
+  width: 16px;
+  height: 0;
+  padding-bottom: 16px;
+  line-height: 0;
+  text-indent: -9999em;
+  display: block;
+  outline: 0;
+}
+
+/**
+ *  ==========================================================================
+ *  File Icons
+ *  ==========================================================================
+ */
+
+.file a div.file-icon {
+  background: url(/modules/file/icons/text-plain.png) no-repeat 0 2px transparent;
+  width: 16px;
+  height: 18px;
+  margin-right: 8px;
+  vertical-align: sub;
+  line-height: 0;
+  display: inline-block;
+  text-indent: -999em;
+}
+
+.file a.mime-application-pdf div.file-icon {
+  background: url(/modules/file/icons/application-pdf.png) no-repeat 0 2px transparent;
+}
+.file a.mime-application-octet-stream div.file-icon {
+  background: url(/modules/file/icons/application-octet-stream.png) no-repeat 0 2px transparent;
+}
+.file a.mime-application-x-executable div.file-icon {
+  background: url(/modules/file/icons/application-x-executable.png) no-repeat 0 2px transparent;
+}
+.file a.mime-audio-x-generic div.file-icon {
+  background: url(/modules/file/icons/audio-x-generic.png) no-repeat 0 2px transparent;
+}
+.file a.mime-image-x-generic div.file-icon {
+  background: url(/modules/file/icons/image-x-generic.png) no-repeat 0 2px transparent;
+}
+.file a.mime-package-x-generic div.file-icon {
+  background: url(/modules/file/icons/package-x-generic.png) no-repeat 0 2px transparent;
+}
+.file a.mime-text-html div.file-icon {
+  background: url(/modules/file/icons/text-html.png) no-repeat 0 2px transparent;
+}
+.file a.mime-text-plain div.file-icon {
+  background: url(/modules/file/icons/text-plain.png) no-repeat 0 2px transparent;
+}
+.file a.mime-text-x-generic div.file-icon {
+  background: url(/modules/file/icons/text-x-generic.png) no-repeat 0 2px transparent;
+}
+.file a.mime-text-x-script div.file-icon {
+  background: url(/modules/file/icons/text-x-script.png) no-repeat 0 2px transparent;
+}
+.file a.mime-video-x-generic div.file-icon {
+  background: url(/modules/file/icons/video-x-generic.png) no-repeat 0 2px transparent;
+}
+.file a.mime-x-office-document div.file-icon {
+  background: url(/modules/file/icons/x-office-document.png) no-repeat 0 2px transparent;
+}
+.file a.mime-x-office-presentation div.file-icon {
+  background: url(/modules/file/icons/x-office-presentation.png) no-repeat 0 2px transparent;
+}
+.file a.mime-x-office-spreadsheet div.file-icon {
+  background: url(/modules/file/icons/x-office-spreadsheet.png) no-repeat 0 2px transparent;
+}
+
+/**
+ *  ==========================================================================
+ *  Table Sort Icons
+ *  ==========================================================================
+ */
+
+.table-order-asc, .table-order-desc{
+  width: 16px;
+  height: 16px;
+  float: right;
+}
+.table-order-asc{
+  background: transparent url(/misc/arrow-asc.png) no-repeat center top;
+}
+.table-order-desc{
+  background: transparent url(/misc/arrow-desc.png) no-repeat center top;
+}
+
+// =============================================================================
+// Tables
+// =============================================================================
+
+
+table {
+  max-width: 100%;
+  border: 1px solid $tableBorder;
+  border-left: 0;
+  border-collapse: separate; // Done so we can round those corners!
+  *border-collapse: collapsed; // IE7 can't round corners anyway
+  @include border-radius(4px);
+  border-spacing: 0;
+  background-color: $tableBackground;
+  margin-bottom: $baseLineHeight;
+  font-size: 1em;
+  tbody {
+    border-top: none;
+  }
+  tr.even,
+  tr.odd {
+    background-color: $tableBackground;
+  }
+  // Cells
+  th,
+  td,
+  tr.even td {
+    padding: 0.4em 0.6em 0.3em;
+    line-height: $baseLineHeight;
+    text-align: left; /* LTR */
+    vertical-align: middle;
+    border-bottom: none;
+    background-color: $tableBackground;
+    border-top: 1px solid $tableBorder;
+    border-left: 1px solid $tableBorder;
+  }
+  th {
+    font-weight: bold;
+    a {
+      text-decoration: none;
+    }
+  }
+  // Bottom align for column headings
+  thead th {
+    vertical-align: bottom;
+  }
+  // Remove top border from thead by default
+  colgroup + thead tr:first-child th,
+  colgroup + thead tr:first-child td,
+  thead:first-child tr:first-child th,
+  tbody:first-child tr:first-child th,
+  thead:first-child tr:first-child td,
+  tbody:first-child tr:first-child td {
+    border-top: 0;
+  }
+  // For first th or td in the first row in the first thead or tbody
+  thead:first-child tr:first-child th:first-child,
+  tbody:first-child tr:first-child td:first-child {
+    @include border-radius(4px 0 0 0);
+  }
+  thead:first-child tr:first-child th:last-child,
+  tbody:first-child tr:first-child td:last-child {
+    @include border-radius(0 4px 0 0);
+  }
+  // For first th or td in the first row in the first thead or tbody
+  thead:last-child tr:last-child th:first-child,
+  tbody:last-child tr:last-child td:first-child {
+    @include border-radius(0 0 0 4px);
+  }
+  thead:last-child tr:last-child th:last-child,
+  tbody:last-child tr:last-child td:last-child {
+    @include border-radius(0 0 4px 0);
+  }
+  // Account for multiple tbody instances
+  tbody + tbody {
+    border-top: 2px solid $tableBorder;
+  }
+
+  tbody {
+    tr.odd td,
+    tr:nth-child(odd) th {
+      background-color: $tableBackgroundAccent;
+    }
+  }
+  tbody tr:hover td,
+  tbody tr:hover td.odd,
+  tbody tr:hover th {
+    background-color: $tableBackgroundHover;
+  }
+  tbody tr.drag,
+  tbody tr.drag td {
+    background-color: #fffff0;
+  }
+  tbody tr.drag-previous,
+  tbody tr.drag-previous td {
+    background-color: #ffd;
+  }
+}
+
+// =============================================================================
+// Drupal Forms
+// =============================================================================
+
+.form-item {
+  margin: 0;
+}
+
+.filter-wrapper {
+  border: 0;
+}
+
+.container-inline .form-item {
+  padding: 0;
+  margin-right: 1em;
+}
+.container-inline .form-item:hover {
+  background-color: transparent;
+}
+#content ul.vertical-tabs-list {
+  padding-left: 0;
+}
+
+#content li.vertical-tab-button {
+  background-image: none;
+  padding: 0;
+}
+
+// =============================================================================
+// Node
+// =============================================================================
+
+.node { // Node wrapper
+
+  .preview & { // Preview of the content before submitting new or updated content
+    // background-color: #ffffea; // Drupal core uses a #ffffea background
+  }
+
+  &.node-promoted { // A node that has been promoted to the front page
+  }
+
+  &.node-sticky { // A sticky node (displayed before others in a list)
+  }
+
+  &.node-by-viewer { // A node created by the current user
+  }
+
+  &.node-teaser { // A node displayed as teaser
+  }
+
+  // All nodes are given a node-FOO class that describes the type of content that
+  // it is. If you create a new content type called "my-custom-type", it will
+  // receive a "node-my-custom-type" class.
+  &.node-page { // Page content node
+  }
+
+  &.node-article { // Article content node
+  }
+
+  h2.node-title { // Node title
+  }
+
+  .user-picture { // The picture of the node author
+  }
+
+  .submitted { // The "posted by" information
+  }
+
+  .content { // Node's content wrapper
+  }
+
+  ul.links { // Node links. See also the ul.links declaration in the pages.css.
+  }
+}
+
+.node-unpublished { // Unpublished nodes
+  // background-color: #fff4f4; // Drupal core uses a #fff4f4 background
+
+  div.unpublished { // The word "Unpublished" displayed underneath the content.
+    @include unpublished-div;
+  }
+}
+
+// =============================================================================
+// Comments
+// =============================================================================
+
+#comments { // Wrapper for the list of comments and its title
+  margin: 1.5em 0;
+
+  h2.title { // Heading for the list of comments
+    padding-bottom: 0.2em;
+    border-bottom: 1px dotted $borderColor;
+  }
+
+  h2.comment-form { // Heading for the comment form
+  }
+}
+
+.comment { // Wrapper for a single comment
+
+  &.comment-preview { // Preview of the comment before submitting new or updated comment
+    background-color: #ffffea; // Drupal core will use a #ffffea background. See #1110842
+  }
+
+  &.new { // A new comment since the user last viewed the page.
+  }
+
+  &.first { // The first comment in the list of comments
+  }
+
+  &.last { // The last comment in the list of comments
+  }
+
+  &.odd { // An odd-numbered comment in the list of comments
+  }
+
+  &.even { // An even-numbered comment in the list of comments
+  }
+
+  &.comment-by-anonymous { // A comment created by an anonymous user
+  }
+
+  &.comment-by-node-author { // A comment created by the node's author
+  }
+
+  &.comment-by-viewer { // A comment created by the current user
+  }
+
+  h3.comment-title { // Comment title
+  }
+
+  .new { // "New" marker for comments that are new for the current user
+    color: #c00;
+  }
+
+  .user-picture { // The picture of the comment author
+  }
+
+  .submitted { // The "posted by" information
+  }
+
+  .content { // Comment's content wrapper
+  }
+
+  .user-signature { // The user's signature
+  }
+
+  ul.links { // Comment links. See also the ul.links declaration in the pages.css.
+  }
+}
+
+.indented { // Nested comments are indented
+  // margin-left: 25px; // Drupal core uses a 25px left margin
+}
+
+.comment-unpublished { // Unpublished comments
+  // background-color: #fff4f4; // Drupal core uses a #fff4f4 background
+
+  div.unpublished { // The word "Unpublished" displayed underneath the content.
+    @include unpublished-div;
+  }
+}

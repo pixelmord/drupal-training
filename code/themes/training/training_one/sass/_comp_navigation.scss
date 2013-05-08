@@ -1,0 +1,333 @@
+// BUTTON STYLES
+// -----------------------------------------------------------------------------
+
+
+// Base styles
+// -----------
+
+
+@mixin btn() {
+  @include inline-block();
+  padding: 3px 15px 3px;
+  margin-bottom: 0; // For input.btn
+  font-size: 0.9em;
+  text-decoration: none;
+  line-height: $baseLineHeight;
+  color: $grayDark;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255,255,255,.75);
+  vertical-align: middle;
+  @include buttonBackground($btnBackground, $btnBackgroundHighlight);
+  border: 1px solid $btnBorder;
+  border-bottom-color: darken($btnBorder, 10%);
+  @include border-radius(4px);
+  $shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  @include box-shadow($shadow);
+  cursor: pointer;
+
+  // Give IE7 some love
+  @include ie7-restore-left-whitespace();
+
+  &:hover {
+    color: $linkColorHover;
+    text-decoration: none;
+    background-color: darken($white, 10%);
+    background-position: 0 -15px;
+
+    // transition is only when going to hover, otherwise the background
+    // behind the gradient (there for IE<=9 fallback) gets mismatched
+    @include transition(background-position .1s linear);
+  }
+
+  // Focus state for keyboard and accessibility
+  &:focus {
+    @include tab-focus();
+  }
+
+  // Active state
+  &.active,
+  &:active {
+    color: $linkColor;
+    background-image: none;
+    $shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+    @include box-shadow($shadow);
+    background-color: darken($white, 10%);
+    background-color: darken($white, 15%) #{"\9"};
+    outline: 0;
+  }
+
+  // Disabled state
+  &.disabled,
+  &[disabled] {
+    cursor: default;
+    background-image: none;
+    background-color: darken($white, 10%);
+    @include opacity(65);
+    @include box-shadow(none);
+  }
+}
+
+// Core
+.btn {
+  @include btn();
+}
+.btn-wrapper {
+  a {
+    @include btn();
+  }
+}
+
+// Mini
+.btn-mini {
+
+}
+
+.btn-wrapper-mini {
+  a {
+    padding: 2px 6px;
+    font-size: $baseFontSize * 0.9;
+    line-height: $baseLineHeight * 0.9;
+  }
+}
+
+// Alternate buttons
+// --------------------------------------------------
+@mixin color-button() {
+  @include btn();
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  color: $white;
+
+  &:hover {
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    color: $white;
+  }
+  &.active {
+    color: rgba(255,255,255,.75);
+  }
+}
+@mixin color-button-primary() {
+  @include buttonBackground($btnPrimaryBackground, $btnPrimaryBackgroundHighlight);
+}
+// Warning appears are orange
+@mixin color-button-warning() {
+  @include buttonBackground($btnWarningBackground, $btnWarningBackgroundHighlight);
+}
+// Danger and error appear as red
+@mixin color-button-danger() {
+  @include buttonBackground($btnDangerBackground, $btnDangerBackgroundHighlight);
+}
+// Success appears as green
+@mixin color-button-success() {
+  @include buttonBackground($btnSuccessBackground, $btnSuccessBackgroundHighlight);
+}
+// Info appears as a neutral blue
+@mixin color-button-info() {
+  @include buttonBackground($btnInfoBackground, $btnInfoBackgroundHighlight);
+}
+// Inverse appears as dark gray
+@mixin color-button-inverse() {
+  @include buttonBackground($btnInverseBackground, $btnInverseBackgroundHighlight);
+}
+// Set text color
+// -------------------------
+.btn-primary,
+.btn-warning,
+.btn-danger,
+.btn-success,
+.btn-info,
+.btn-inverse {
+  @include color-button();
+}
+
+.btn-wrapper-primary,
+.btn-wrapper-warning,
+.btn-wrapper-danger,
+.btn-wrapper-success,
+.btn-wrapper-info,
+.btn-wrapper-inverse {
+  a {
+    @include color-button();
+  }
+}
+
+// Set the backgrounds
+// -------------------------
+.btn-primary {
+  @include color-button-primary();
+}
+.btn-wrapper-primary {
+  a {
+    @include color-button-primary();
+  }
+}
+// Warning appears are orange
+.btn-warning {
+  @include color-button-warning();
+}
+.btn-wrapper-warning {
+  a {
+    @include color-button-warning();
+  }
+}
+// Danger and error appear as red
+.btn-danger {
+  @include color-button-danger();
+}
+.btn-wrapper-danger {
+  a {
+    @include color-button-danger();
+  }
+}
+// Success appears as green
+.btn-success {
+  @include color-button-success();
+}
+.btn-wrapper-success {
+  a {
+    @include color-button-success();
+  }
+}
+// Info appears as a neutral blue
+.btn-info {
+  @include color-button-info();
+}
+.btn-wrapper-info {
+  a {
+    @include color-button-info();
+  }
+}
+// Inverse appears as dark gray
+.btn-inverse {
+  @include color-button-inverse();
+}
+.btn-wrapper-inverse {
+  a {
+    @include color-button-inverse();
+  }
+}
+
+
+// BUTTON GROUPS
+// -----------------------------------------------------------------------------
+
+
+// Make the div behave like a button
+@mixin btn-group() {
+  position: relative;
+  @include clearfix(); // clears the floated buttons
+  @include ie7-restore-left-whitespace();
+
+  & + & {
+    margin-left: 5px;
+  }
+}
+
+@mixin btn-group-btn() {
+  @include btn();
+  position: relative;
+  float: left;
+  margin-left: -1px;
+  @include border-radius(0);
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    z-index: 2;
+  }
+}
+
+@mixin btn-group-btn-first() {
+  margin-left: 0;
+  @include rounded('top-left', 4px);
+  @include rounded('bottom-left', 4px);
+}
+@mixin btn-group-btn-last() {
+  @include rounded('top-right', 4px);
+  @include rounded('bottom-right', 4px);
+}
+
+.btn-group {
+  @include btn-group();
+
+  .btn {
+    @include btn-group-btn();
+
+    &:first-child,
+    &.first {
+      @include btn-group-btn-first();
+    }
+    &:last-child,
+    &.last {
+      @include btn-group-btn-last();
+    }
+  }
+}
+
+// NAVBAR
+// -----------------------------------------------------------------------------
+
+@mixin navbar() {
+  // Fix for IE7's bad z-indexing so dropdowns don't appear below content
+  // that follows the navbar
+  @if $legacy-support-for-ie7 {
+    *position: relative;
+    *z-index: 2;
+  }
+  overflow: visible;
+  margin-bottom: $baseLineHeight;
+  color: $navbarText;
+}
+@mixin navbar-fixed() {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: $zindexFixedNavbar;
+  margin-bottom: 0; // remove 18px margin for static navbar
+}
+
+// Gradient is applied to it's own element because overflow visible
+// is not honored by IE when filter is present
+@mixin navbar-inner() {
+  padding-left:  20px;
+  padding-right: 20px;
+  @include gradient-vertical($navbarBackgroundHighlight, $navbarBackground);
+  $shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
+  @include box-shadow($shadow);
+}
+@mixin navbar-fixed-inner() {
+  padding-left:  0;
+  padding-right: 0;
+  @include border-radius(0);
+}
+@mixin navbar-nav {
+  position: relative;
+  left: 0;
+  display: block;
+  margin: 0;
+}
+@mixin navbar-item {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+@mixin navbar-item-link {
+  float: none;
+  display: block;
+  padding: 20px 10px 11px;
+  line-height: 19px;
+  color: $navbarLinkColor;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  &:hover {
+    background-color: $navbarLinkBackgroundHover; // "transparent" is default to differentiate :hover from .active
+    color: $navbarLinkColorHover;
+    text-decoration: none;
+  }
+  &.active,
+  &.active:hover {
+    color: $navbarLinkColorActive;
+    text-decoration: none;
+    background-color: $navbarLinkBackgroundActive;
+  }
+}

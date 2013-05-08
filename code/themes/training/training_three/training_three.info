@@ -1,0 +1,30 @@
+name = Training Three
+description = This training theme will inherit CSS and JS from training one and templates and preprocessing from training two and add new theme functions
+core = 7.x
+base theme = training_two
+
+;---------------- R E G I O N S -------------------
+
+; system regions not displayed in the UI
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+regions[help] = Help
+
+; regions for front-end output
+regions[tools] = Toolbar
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[footer_first] = Footer first column
+regions[footer_second] = Footer second column
+regions[footer_third] = Footer third column
+regions[footer_fourth] = Footer fourth column
+regions[footer] = Footer

@@ -1,0 +1,323 @@
+//
+// Main stylesheet containing layout and style overrides
+// =============================================================================
+
+@import 'base';
+
+// mixins and helper classes
+@import 'utilities';
+
+@import 'comp_navigation';
+
+// =============================================================================
+// 1. Layout
+// =============================================================================
+
+$grid_width       : 320px; /* total with of page */
+$columns          : 1; /* number of columns */
+$col_margin       : 20px; /* margin between columns */
+$grid_debug       : false;
+
+// math magic
+$col_width        : ($grid_width - (($col_margin * 2) * $columns)) / $columns;
+$col_total_width  : $col_width + ($col_margin * 2);
+
+@import 'grid';
+
+body {
+	background: #EEE;
+}
+#page-wrapper {
+	@include container;
+	background: #FFF;
+	@include box-shadow(0 0 8px rgba(0,0,0,.35));
+	margin-bottom: 40px;
+}
+
+#page {
+
+}
+
+#main {
+	clear: left;
+	@include clearfix;
+}
+#toolbar-top,
+#header,
+#navigation,
+#highlighted,
+#content,
+#sidebar-first,
+#sidebar-second,
+#footer {
+	@include col(1);
+}
+
+#footer-navigation {
+	@include clearfix;
+	.section-first {
+		@include col(1);
+	}
+	.section-second {
+		@include col(1);
+	}
+	.section-third {
+		@include col(1);
+	}
+	.section-fourth {
+		@include col(1);
+	}
+}
+
+// =============================================================================
+// PLACEHOLDER Media Queries for Responsive Design.
+// These override the primary ('mobile first') styles
+// Modify as content requires.
+// =============================================================================
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+	$grid_width       : 480px; /* total with of page */
+	$columns          : 8; /* number of columns */
+	$col_margin       : 5px; /* margin between columns */
+
+	/* math magic */
+	$col_width        : ($grid_width - (($col_margin * 2) * $columns)) / $columns;
+	$col_total_width  : $col_width + ($col_margin * 2);
+
+	#page-wrapper {
+		@include container;
+	}
+
+	body.no-sidebars #content {
+		@include col(8);
+	}
+	body.one-sidebar #content,
+	body.two-sidebars #content {
+		@include col(6);
+	}
+	#sidebar-first {
+		@include col(2);
+	}
+	#sidebar-second {
+		@include col(2);
+	}
+
+	#header,
+	#toolbar-top,
+	#navigation,
+	#highlighted {
+		@include col(8);
+	}
+	#footer-navigation {
+		.section-first {
+			@include col(2);
+		}
+		.section-second {
+			@include col(2);
+		}
+		.section-third {
+			@include col(2);
+		}
+		.section-fourth {
+			@include col(2);
+		}
+	}
+	#footer {
+		@include col(8);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+	$grid_width       : 780px; /* total with of page */
+	$columns          : 12; /* number of columns */
+	$col_margin       : 10px; /* margin between columns */
+
+	/* math magic */
+	$col_width        : ($grid_width - (($col_margin * 2) * $columns)) / $columns;
+	$col_total_width  : $col_width + ($col_margin * 2);
+	#page-wrapper {
+		@include container;
+	}
+
+	body.no-sidebar #content {
+		@include col(12);
+	}
+
+	body.one-sidebar #content {
+		@include col(9);
+	}
+	body.two-sidebars #content {
+		@include col(6);
+	}
+
+	body.sidebar-first #content {
+		@include push(3);
+	}
+	body.one-sidebar #sidebar-first {
+		@include col(3);
+		@include pull(9);
+	}
+	body.two-sidebars #sidebar-first {
+		@include col(3);
+		@include pull(9);
+	}
+	#sidebar-second {
+		@include col(3);
+	}
+
+	#header,
+	#toolbar-top,
+	#navigation,
+	#highlighted {
+		@include col(12);
+	}
+	#footer-navigation {
+		.section-first {
+			@include col(3);
+		}
+		.section-second {
+			@include col(3);
+		}
+		.section-third {
+			@include col(3);
+		}
+		.section-fourth {
+			@include col(3);
+		}
+	}
+	#footer {
+		@include col(12);
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	$grid_width       : 960px; /* total with of page */
+	$columns          : 12; /* number of columns */
+	$col_margin       : 10px; /* margin between columns */
+
+	/* math magic */
+	$col_width        : ($grid_width - (($col_margin * 2) * $columns)) / $columns;
+	$col_total_width  : $col_width + ($col_margin * 2);
+
+	#page-wrapper {
+		@include container;
+	}
+
+	body.no-sidebars #content {
+		@include col(12);
+	}
+
+	body.one-sidebar #content {
+		@include col(9);
+	}
+	body.two-sidebars #content {
+		@include col(6);
+	}
+
+	body.sidebar-first #content {
+		@include push(3);
+	}
+	body.one-sidebar #sidebar-first {
+		@include col(3);
+		@include pull(9);
+	}
+	body.two-sidebars #sidebar-first {
+		@include col(3);
+		@include pull(9);
+	}
+	#sidebar-second {
+		@include col(3);
+	}
+
+	#header,
+	#toolbar-top,
+	#navigation,
+	#highlighted {
+		@include col(12);
+	}
+	#footer-navigation {
+		.section-first {
+			@include col(3);
+		}
+		.section-second {
+			@include col(3);
+		}
+		.section-third {
+			@include col(3);
+		}
+		.section-fourth {
+			@include col(3);
+		}
+	}
+	#footer {
+		@include col(12);
+	}
+}
+
+img {
+	max-width: 100%;
+}
+img[height] {
+	max-width: none;
+}
+// =============================================================================
+// 2. Drupal default styles
+//    bundled in separate imports
+// =============================================================================
+
+@import 'drupal';
+
+// contrib stylesheets
+
+//@import 'dc_panels';
+
+// =============================================================================
+// 3. General form styling
+// =============================================================================
+
+@import 'forms';
+
+// =============================================================================
+// 4. custom styles
+// =============================================================================
+
+.navbar {
+
+	a {
+		color: #FFF;
+		text-ddecoration: none;
+	}
+	a.active {
+		color: #EEE;
+	}
+}
+#identity {
+	@include clearfix;
+	margin: 20px 0;
+	hgroup {
+		float: left;
+		margin-top: 15px;
+	}
+}
+
+#logo {
+	float: left;
+	margin-right: 20px;
+}
+#site-name {
+	text-transform: uppercase;
+}
+
+.front #main article.node-teaser {
+	border-bottom: 1px solid #EEE;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+// =============================================================================
+// Print styles.
+// Inlined to avoid required HTTP connection: h5bp.com/r
+// =============================================================================
+
+@import 'print';

@@ -1,0 +1,17 @@
+.node-slideshow-item {
+  position: relative;
+}
+.slideshow-item-title {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: #FFF;
+  background: rgba(0,0,0,0.6);
+  min-height: 25px;
+  width: 100%;
+  text-align: right;
+}
+.slideshow-item-title span {
+  margin: 5px;
+
+}

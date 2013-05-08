@@ -1,0 +1,68 @@
+
+
+/* `Containers
+----------------------------------------------------------------------------------------------------*/
+
+@mixin container {
+  margin-left: auto;
+  margin-right: auto;
+  width: $grid_width;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+@mixin col($n: 1) {
+  display: inline;
+  float: left;
+  position: relative;
+  width: $col_width + (($n - 1) * $col_total_width);
+  margin-left: $col_margin;
+  margin-right: $col_margin;
+  @if $grid_debug {
+    outline: 1px solid #EEE;
+  }
+}
+
+
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+@mixin alpha {
+  margin-left: 0;
+}
+
+@mixin omega {
+  margin-right: 0;
+}
+
+/* `Prefix Extra Space
+----------------------------------------------------------------------------------------------------*/
+
+@mixin prefix($p : 1) {
+  padding-left: $p * $col_width;
+}
+
+/* `Suffix Extra Space
+----------------------------------------------------------------------------------------------------*/
+
+@mixin suffix($s : 1) {
+  padding-right: $s * $col_width;
+}
+
+
+/* `Push Space
+----------------------------------------------------------------------------------------------------*/
+
+@mixin push($ps : 1) {
+  left: $ps * $col_total_width;
+}
+
+
+/* `Pull Space
+----------------------------------------------------------------------------------------------------*/
+
+@mixin pull($pl : 1) {
+  left: -($pl * $col_total_width);
+}

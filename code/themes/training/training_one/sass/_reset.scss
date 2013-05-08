@@ -1,0 +1,252 @@
+// =============================================================================
+// HTML5 display definitions
+// =============================================================================
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  @include inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+// =============================================================================
+// Base
+// =============================================================================
+
+
+// 1. Correct text resizing oddly in IE6/7
+// when body font-size is set using em units
+// 2. Force vertical scrollbar in non-IE
+// 3. Prevent iOS text size adjust on device orientation change,
+// without disabling user zoom: h5bp.com/g
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: $base-font;
+  color: $textColor;
+}
+
+// Remove text-shadow in selection highlight: h5bp.com/i
+// These selection declarations have to be separate
+// adjust background color to match your design
+
+::-moz-selection {
+  background: $linkColorHover;
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background: $linkColorHover;
+  color: #fff;
+  text-shadow: none;
+}
+
+// =============================================================================
+// Links
+// =============================================================================
+
+a {
+  color: $linkColor;
+
+  &:visited {
+  color: $linkColor;
+  }
+  &:hover {
+    color: $linkColorHover;
+  }
+  &:focus {
+    outline: thin dotted;
+  }
+  // Improve readability when focused and hovered in all browsers: h5bp.com/h
+  &:hover,
+  &:active {
+    outline: 0;
+  }
+}
+
+// =============================================================================
+// Typography
+// =============================================================================
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1.5em 2.5em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $borderColor;
+  margin: 1.5em 0;
+  padding: 0;
+  clear: both;
+}
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+// Redeclare monospace font family: h5bp.com/j
+pre, code, kbd, samp {
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+// Improve readability of pre-formatted text in all browsers
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: none;
+  &:before,
+  &:after {
+    content: "";
+    content: none;
+  }
+}
+
+small {
+  font-size: 85%;
+}
+
+// Position subscript and superscript content without affecting line-height: h5bp.com/k
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+// =============================================================================
+// Lists
+// =============================================================================
+
+ul,
+ol {
+  margin: 1.5em 0;
+  padding: 0 0 0 2.5em; /* LTR */
+}
+
+dd {
+  margin: 0 0 0 2.5em;
+}
+
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+// =============================================================================
+// Embedded content
+// =============================================================================
+
+
+// 1. Improve image quality when scaled in IE7: h5bp.com/d
+// 2. Remove the gap between images and borders on image containers: h5bp.com/e
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+// Correct overflow not hidden in IE9
+svg:not(:root) {
+  overflow: hidden;
+}
+
+// =============================================================================
+// Figures
+// =============================================================================
+
+figure {
+  margin: 0;
+}
+
+// =============================================================================
+// Tables
+// =============================================================================
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+}
+
+td {
+  vertical-align: top;
+}
