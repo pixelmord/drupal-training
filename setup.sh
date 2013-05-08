@@ -17,4 +17,4 @@ mkdir -p $WORKDIR/htdocs/sites/all/modules/custom
 cp -a $WORKDIR/code/modules/* $WORKDIR/htdocs/sites/all/modules/custom/
 
 echo "[INFO] copy training themes"
-cp -a $WORKDIR/code/themes/ $WORKDIR/htdocs/sites/all/themes/
+cp -a $WORKDIR/code/themes/* $WORKDIR/htdocs/sites/all/themes/
