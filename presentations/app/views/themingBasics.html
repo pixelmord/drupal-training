@@ -3,18 +3,149 @@
     <section class="slide">
       <h1>Welcome to Drupal Theming Basics</h1>
       <h2>An episode of <em>'The Muppets Show'</em> with guest star Sheldon Cooper</h2>
-      <p>
-        txt
-      </p>
     </section>
 
     <section class="slide">
-      <p>text</p>
+      <section>
+        <h2>Intruducing the Personas</h2>
+        <ul>
+          <li>Kermit</li>
+          <li>Miss Piggy</li>
+          <li>Dr. Bunsen Honeydew</li>
+          <li>Guest star: <strong>Dr. Sheldon Cooper</strong></li>
+        </ul>
+      </section>
+      <section>
+        <img src="images/The-Muppet-Show.jpg" alt=""/>
+        <p class="caption">The Muppet Show</p>
+      </section>
+      <section>
+        <img src="images/sheldon.jpg" alt=""/>
+        <p class="caption">Dr. Sheldon Cooper</p>
+      </section>
+      <section>
+        <div class="persona-head persona-head-kermit"></div>
+        <h2>Kermit: The interface guy</h2>
+        <ul>
+          <li>Theme related configuration</li>
+          <li>Theme related site building</li>
+          <li>Theming related modules</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-piggy"></div>
+        <h2>Miss Piggy: The stylish lady</h2>
+        <ul>
+          <li>CSS for the theme</li>
+          <li>CSS for modules</li>
+          <li>Fancy JavaScript</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-bunsen"></div>
+        <h2>Dr. Bunsen: The theme engineer</h2>
+        <ul>
+          <li>Preparing theme related variables and markup</li>
+          <li>Working with templates</li>
+          <li>Overriding theme functions</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-sheldon"></div>
+        <h2>Dr. Sheldon Cooper: He knows it all (better)</h2>
+        <ul>
+          <li>Theme 'physics'</li>
+          <li>Documentation</li>
+          <li>API</li>
+        </ul>
+      </section>
     </section>
 
     <section class="slide">
-      <p>Code:</p>
-      <pre><code data-trim>drupal_add_css(drupal_get_path('module', 'custom') . '/css/custom.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));
+      <section>
+        <h1>The Basics: Finding your way</h1>
+
+      </section>
+      <section>
+        <div class="persona-head persona-head-kermit"></div>
+        <h2>Theme Configuration UI</h2>
+        <ul>
+          <li>Activation</li>
+          <li>Settings</li>
+          <li>Theme relevant site building</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-bunsen"></div>
+        <h2>Construction of a theme</h2>
+        <ul>
+          <li>Basic components</li>
+          <li>Info file configuration</li>
+          <li>The bare minimum</li>
+        </ul>
+      </section>
+    </section>
+    <section class="slide">
+      <section>
+        <h1>Theme components: <br>Different perspectives</h1>
+      </section>
+      <section>
+        <div class="persona-head persona-head-kermit"></div>
+        <h2>The builder's perspective</h2>
+        <ul>
+          <li>Regions and their content</li>
+          <li>Building blocks</li>
+          <li>View modes</li>
+          <li>Config that influences theming</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-piggy"></div>
+        <h2>The styler's perspective</h2>
+        <ul>
+          <li>Adding CSS files</li>
+          <li>Adding JS files</li>
+          <li>Working with markup and classes</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-bunsen"></div>
+        <h2>The engineer's perspective</h2>
+        <ul>
+          <li>Overriding stylesheets</li>
+          <li>Overriding a template</li>
+          <li>Output control for templates</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="slide">
+      <section>
+        <h1>Let's get dirty: <br> Do it your way!</h1>
+      </section>
+      <section>
+        <div class="persona-head persona-head-piggy"></div>
+        <h2>Every page in its beauty</h2>
+        <ul>
+          <li>Context related CSS and JS</li>
+          <li>Changing classes the drupal way</li>
+        </ul>
+      </section>
+      <section>
+        <div class="persona-head persona-head-bunsen"></div>
+        <h2>Preprocess like a developer</h2>
+        <ul>
+          <li>Use theme developer tools</li>
+          <li>Keep templates clean</li>
+          <li>Overriding best practices</li>
+          <li>Finding the right place to 'hook'</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="slide">
+      <p>Thanks for listening!</p>
+      <pre><code data-trim>drupal_add_css(drupal_get_path('theme', 'muppet_theme') . '/css/GOOD_BYE.css');
       </code></pre>
     </section>
   </div>

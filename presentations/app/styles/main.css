@@ -8843,11 +8843,50 @@ pre .xml .cdata {
 }
 
 /* line 18, main.scss */
+.reveal section {
+  position: relative;
+}
+
+/* line 21, main.scss */
 .slide {
-  font-size: 130%;
+  font-size: 140%;
   height: 65%;
 }
-/* line 21, main.scss */
+/* line 25, main.scss */
 .slide h1 {
+  color: #263658;
   line-height: 105px;
+}
+/* line 29, main.scss */
+.slide h2 {
+  color: #6b7c97;
+}
+
+/* line 44, main.scss */
+.persona-head {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: -200px;
+  margin-top: -200px;
+}
+
+/* line 52, main.scss */
+.persona-head-kermit {
+  background: url(../images/head_kermit.jpg) no-repeat;
+}
+
+/* line 55, main.scss */
+.persona-head-piggy {
+  background: url(../images/head_piggy.jpg) no-repeat;
+}
+
+/* line 58, main.scss */
+.persona-head-bunsen {
+  background: url(../images/head_bunsen.jpg) no-repeat;
+}
+
+/* line 61, main.scss */
+.persona-head-sheldon {
+  background: url(../images/head_sheldon.jpg) no-repeat;
 }
