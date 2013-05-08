@@ -1,0 +1,6 @@
+name = theme training ui tweaks
+description = tweaks
+core = 7.x
+package = custom
+
+files[] = tt_ui_tweaks.module

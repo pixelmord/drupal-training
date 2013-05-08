@@ -1,0 +1,36 @@
+<?php
+/**
+ * Implements hook_init().
+ *
+ */
+function tt_ui_tweaks_init() {
+  global $theme_key;
+  if ($theme_key == variable_get('admin_theme', 'seven')) {
+    drupal_add_css(drupal_get_path('module', 'tt_ui_tweaks') . '/css/admin_theme_overrides.css', array('group' => CSS_THEME));
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ */
+function tt_ui_tweaks_form_search_block_form_alter(&$form, &$form_state, $form_id) {
+  $form['search_block_form']['#attributes']['placeholder'] = t('Search..');
+
+}
+
+/**
+ * Implements hook_entity_info_alter().
+ *
+ * declare additional view modes
+ */
+function tt_ui_tweaks_entity_info_alter(&$entity_info) {
+  /*
+  $entity_info['node']['view modes'] += array(
+    'teaser_small' => array(
+      'label' => t('Teaser small'),
+      'custom settings' => FALSE,
+    ),
+  );
+  */
+}
